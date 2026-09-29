@@ -1,47 +1,32 @@
-.gradle
+# Gradle
+.gradle/
 build/
 !gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
-.kotlin
+.kotlin/
 
-### IntelliJ IDEA ###
-.idea/
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
-*.iml
-*.ipr
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
+# jpackage output (GreenLauncher.exe, app-image folder, zips)
 /dist/
-/nbdist/
-/.nb-gradle/
 
-### VS Code ###
+# Local launcher data — never belongs in the repo
+*.log
+accounts.json
+settings.json
+instances/
+runtimes/
+
+# IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+bin/
+out/
 .vscode/
 
-### Mac OS ###
+# OS noise
 .DS_Store
-
-### jpackage output ###
-/dist/
+Thumbs.db
+desktop.ini
